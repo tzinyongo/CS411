@@ -1,0 +1,29 @@
+Agile Section
+Theme: Get GiggleGit demo into a stable enough alpha to start onboarding some adventurous clients
+Epic: Onboarding experience
+User Story 1: As a vanilla git power user that has never seen GiggleGit before I want to have a basic understanding of how to use memes for megre conflict resolution 
+User Story 2: As a team lead onboarding an experienced GiggleGit user I want to ensure easy access to new updates and features that they can use to improve their workflow 
+User story 3: As a team lead, I want to be able to effectively monitor user activity on GiggleGit so I verify that my team is making progress while adhering to the project guidelines
+Task: Implement a team tracking dashboard
+Ticket 1: Create a user activity dashboard
+Create a dashboard that allows team leads to monitor team progress. On here they should be able to monter time spent on different tasks and the progression made on each task.
+Ticket 2: Create notifications for Merge Conflicts to team leaders
+Develop a notifications system that alerts team leads of merge issues encountered by team members. The notification should include the team member, details of the issues, and provide context about the problem.
+
+
+Formal Requirements
+Goal: Design the user experience of SnickerSync to be engaging and easy to use that maks syncing enjoyable 
+Non-Goal: Effectively creating an aesthetically pleasing UI interface for users
+Non-Functional Requirement 1: User access
+Access to certain features should be limited based on the user roles to prevent data leaking and hacking of administrative functions
+Functional Requirement 1: Role based Permissions
+Only PM’s or users with administrative privileges can access and edit sync functions
+Functional Requirement 2: Assignment Management
+Provide ability for PMs or users with adminstrative privileges to change user permissions for certain user roles. Have hierarchy of roles and only certain team members can change feature settings
+Non-Functional Requirement 2: Randomized testing for users
+SnickerSync needs to preform A/B testing to analyze user engagement and to test which features are received the best
+Functional Requirement 1: Data collection
+Need to track user responses and engagement metrics for both control groups. Can track things such as interaction frequence. 
+Functional Requirement 2: Module to Randomly assign users
+Develop module that can randomly assign users to different control groups to ensure accuracy within testing 
+
