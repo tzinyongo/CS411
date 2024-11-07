@@ -1,5 +1,5 @@
 import logging
-import requests
+#import requests
 
 from meal_max.utils.logger import configure_logger
 
